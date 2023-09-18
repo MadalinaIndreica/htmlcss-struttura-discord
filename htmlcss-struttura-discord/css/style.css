@@ -76,16 +76,107 @@ header {
 
 /* MAIN */
 
+.wrappersection{
+    display: flex;
+    padding: 100px;
+}
+
+span{
+    background-color: #1d90fe;
+    width: 44%;
+    padding: 150px;
+    margin-left: 180px;
+    border: 2px dashed black;
+}
+aside {
+    background-color: #fec0ca;
+    width: 25%;
+    border-bottom: 2px dashed black;
+    border-right: 2px dashed black;
+    border-top: 2px dashed black;
+}
+.second-span {
+    background-color: #fec0ca;
+    width: 25%;
+    border-bottom: 2px dashed black;
+    border-right: 2px dashed black;
+    border-top: 2px dashed black;
+
+}
+.second-aside {
+    background-color: #1d90fe;
+    width: 44%;
+    padding: 150px;
+}
+.first-layout {
+    display: flex;
+    padding: 100px;
+    background-color: lightgray;
+
+}
+ .green-layout{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color: gray;
+ }
+ .green{
+    background-color: #2d8d2d;
+    width: 59%;
+    height: 20px;
+    padding: 200px; 
+    border: 2px dashed black;
+    margin-top: 30px;
+    margin-right: 165px;
+    margin-bottom: 30px;
+}
+
+ .last-layout {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color: rgb(53, 53, 53);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 150px;
+    
+    
+ }
+.coral {
+    background-color: #ff627c;
+    width: 10px;
+    border-bottom: 2px dashed white;
+    border-left: 2px dashed white;
+    border-top: 2px dashed white;
+    padding: 100px;
+    height: 300px;
 
 
-
-
-
-
-
-
-
-
-
-
+}
+.acquamarine {
+    background-color: #62ffe7;
+    width: 5px;
+    border-bottom: 2px dashed white;
+    border-left: 2px dashed white;
+    border-top: 2px dashed white;
+    margin-left: 0;
+    padding: 65px;
+}
 /* /MAIN */
+/* footer */
+footer{
+    background-color:rgb(53, 53, 53);
+    padding: 10px 50px;
+    border-top: 1px solid white;
+}
+.footer-layout {
+    display: flex;
+    flex-direction:row;
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 294px;
+    padding-left: 315px;
+    padding-right: 279px;
+}
+/* /footer */
